@@ -1,0 +1,7 @@
+- hosts: demo_hosts
+  gather_facts: no
+  connection: local
+  roles:
+  - company_plugins
+  - interface
+  - ansible_change_report

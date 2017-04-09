@@ -1,0 +1,12 @@
+# Install a role from a specific git branch
+- name: company_plugins
+  src: https://github.com/cidrblock/role_company_plugins
+  version: '1.01'
+
+- name: ansible_change_report
+  src: https://github.com/cidrblock/role_ansible_change_report
+  version: '1.01'
+
+- name: interface
+  src: https://github.com/cidrblock/role_interface
+  version: '1.01'
